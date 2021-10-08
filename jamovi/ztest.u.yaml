@@ -1,0 +1,30 @@
+title: One-Sample z-Test
+name: ztest
+jus: '3.0'
+stage: 0
+compilerMode: tame
+children:
+  - type: LayoutBox
+    margin: large
+    style: list
+    children:
+      - type: TextBox
+        name: samplemean
+        format: number
+      - type: TextBox
+        name: populationmean
+        format: number
+      - type: TextBox
+        name: populationsd
+        format: number
+      - type: TextBox
+        name: 'n'
+        format: number
+      - type: TextBox
+        name: alpha
+        format: number
+  - type: LayoutBox
+    margin: large
+    children:
+      - type: ComboBox
+        name: alt

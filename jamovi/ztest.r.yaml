@@ -1,0 +1,33 @@
+---
+name:  ztest
+title: One-Sample z-Test
+jrs:   '1.1'
+
+items:
+    - name:  ztest
+      title: One-Sample z-Test
+      type: Table
+      rows:  1
+      columns:
+        - name: z
+          type: number
+        - name: se
+          type: number
+        - name: p
+          type: number
+          format: zto,pvalue
+        - name: cohend
+          title: "Effect Size"
+          type: number
+          
+    - name:  text
+      title: Decision
+      type: Html
+      
+    - name: plot
+      title: "Plot for z-test with the population distribution and the distribution of sample neans if the Null Hypothesis is true"
+      type: Image
+      width: 600
+      height: 400
+      renderFun: .plot
+...
