@@ -7,24 +7,24 @@ jas: '1.2'
 
 options:
     - name: samplemean
-      title: Sample Mean
+      title: Sample Mean (m)
       type: Number
       default: 55
     - name: populationmean
-      title: Null Population Mean
+      title: Null Population Mean (μ)
       type: Number
       default: 50
     - name: populationsd
-      title: Null Population SD
+      title: Null Population SD (σ)
       type: Number
       default: 10
     - name: n
-      title: Sample Size
+      title: Sample Size (n)
       type: Integer
       default: 30
       min: 1
     - name: alpha
-      title: Alpha Level
+      title: Alpha Level (α)
       type: Number
       default: .05
       min: 0

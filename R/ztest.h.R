@@ -96,12 +96,15 @@ ztestResults <- if (requireNamespace("jmvcore", quietly=TRUE)) R6::R6Class(
                 columns=list(
                     list(
                         `name`="z", 
+                        `title`="Observed <em>z</em>", 
                         `type`="number"),
                     list(
                         `name`="se", 
+                        `title`="Standard Error", 
                         `type`="number"),
                     list(
                         `name`="p", 
+                        `title`="<em>p</em>", 
                         `type`="number", 
                         `format`="zto,pvalue"),
                     list(
@@ -115,7 +118,7 @@ ztestResults <- if (requireNamespace("jmvcore", quietly=TRUE)) R6::R6Class(
             self$add(jmvcore::Image$new(
                 options=options,
                 name="plot",
-                title="Plot for z-test with the population distribution and the distribution of sample neans if the Null Hypothesis is true",
+                title="z-test Plot",
                 width=600,
                 height=400,
                 renderFun=".plot"))}))

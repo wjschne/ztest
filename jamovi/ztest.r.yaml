@@ -10,10 +10,13 @@ items:
       rows:  1
       columns:
         - name: z
+          title: Observed <em>z</em>
           type: number
         - name: se
+          title: Standard Error
           type: number
         - name: p
+          title: <em>p</em>
           type: number
           format: zto,pvalue
         - name: cohend
@@ -25,7 +28,7 @@ items:
       type: Html
       
     - name: plot
-      title: "Plot for z-test with the population distribution and the distribution of sample neans if the Null Hypothesis is true"
+      title: "z-test Plot"
       type: Image
       width: 600
       height: 400
