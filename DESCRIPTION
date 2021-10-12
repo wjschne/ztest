@@ -4,7 +4,7 @@ Title: Conducts a one-sample z-test
 Version: 1.0.0
 Author: W. Joel Schneider
 Maintainer: W. Joel Schneider <w.joel.schneider@gmail.com>
-Description: With conducts a one-sample z-test and profides an instructive visualization
+Description: This r package and Jamovi module conducts a one-sample z-test and profides an instructive visualization.
 License: CC0
 Encoding: UTF-8
 LazyData: true
