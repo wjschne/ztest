@@ -1,6 +1,6 @@
 ---
 title: Conducts a one-sample z-test
-name: ztest
+name: ztestvis
 version: 0.0.0
 jms: '1.0'
 authors:
@@ -12,9 +12,11 @@ description: Conducts a one-sample z-test
 analyses:
   - title: One-Sample z-Test
     name: ztest
-    ns: ztest
-    menuGroup: ztest
+    ns: ztestvis
+    menuGroup: Misc
     menuTitle: One-Sample z-Test
+    menuSubgroup: ztextvis
+    menuSubtitle: One-Sample z-Test
 usesNative: true
 minApp: 1.0.8
 

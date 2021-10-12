@@ -14,7 +14,7 @@ ztestOptions <- if (requireNamespace("jmvcore", quietly=TRUE)) R6::R6Class(
             alt = "notEqual", ...) {
 
             super$initialize(
-                package="ztest",
+                package="ztestvis",
                 name="ztest",
                 requiresData=FALSE,
                 ...)
@@ -129,9 +129,9 @@ ztestBase <- if (requireNamespace("jmvcore", quietly=TRUE)) R6::R6Class(
     public = list(
         initialize = function(options, data=NULL, datasetId="", analysisId="", revision=0) {
             super$initialize(
-                package = "ztest",
+                package = "ztestvis",
                 name = "ztest",
-                version = c(1,0,0),
+                version = c(1,1,0),
                 options = options,
                 results = ztestResults$new(options=options),
                 data = data,

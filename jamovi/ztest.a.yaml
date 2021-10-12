@@ -1,8 +1,9 @@
 ---
 name:  ztest
 title: One-Sample z-Test
-menuGroup: ztest
-version: '1.0.0'
+menuGroup: Misc
+menuSubgroup: ztextvis
+version: '1.1.0'
 jas: '1.2'
 
 options:

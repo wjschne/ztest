@@ -1,14 +1,13 @@
-Package: ztest
+Package: ztestvis
 Type: Package
-Title: Conducts a z-test
-Version: 0.0.0
+Title: Conducts a one-sample z-test
+Version: 1.0.0
 Author: W. Joel Schneider
 Maintainer: W. Joel Schneider <w.joel.schneider@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: With conducts a one-sample z-test and profides an instructive visualization
+License: CC0
 Encoding: UTF-8
 LazyData: true
-Imports: jmvcore (>= 0.8.5), R6, ggplot2
+Imports: jmvcore (>= 0.8.5), R6, ggplot2, ggtext
 URL: https://github.com/wjschne/ztest
 BugReports: https://github.com/wjschne/ztest/issues
