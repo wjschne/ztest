@@ -15,7 +15,7 @@ analyses:
     ns: ztestvis
     menuGroup: Misc
     menuTitle: One-Sample z-Test
-    menuSubgroup: ztextvis
+    menuSubgroup: ztestvis
     menuSubtitle: One-Sample z-Test
 usesNative: true
 minApp: 1.0.8

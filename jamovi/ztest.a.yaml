@@ -2,7 +2,7 @@
 name:  ztest
 title: One-Sample z-Test
 menuGroup: Misc
-menuSubgroup: ztextvis
+menuSubgroup: ztestvis
 version: '1.1.0'
 jas: '1.2'
 
